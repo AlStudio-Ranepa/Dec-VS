@@ -4,7 +4,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 910px;
+  min-height: 1006px;
 }
 
 .u-section-1 .u-image-1 {
@@ -26,20 +26,23 @@
   margin: 14px auto 0;
 }
 
-.u-section-1 .u-btn-1 {
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
+.u-section-1 .u-shape-1 {
+  width: 234px;
+  --radius: 10px;
+  height: 70px;
+  background-image: none;
+  margin: 81px auto 0;
+}
+
+.u-section-1 .u-text-2 {
   font-size: 1rem;
-  margin: 88px auto 60px;
-  padding: 15px 44px 16px;
+  width: 634px;
+  margin: -44px auto 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 672px;
+    min-height: 830px;
   }
 
   .u-section-1 .u-image-1 {
@@ -56,14 +59,14 @@
     margin-right: 85px;
   }
 
-  .u-section-1 .u-btn-1 {
-    margin-top: 61px;
+  .u-section-1 .u-shape-1 {
+    margin-top: -27px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 558px;
+    min-height: 636px;
   }
 
   .u-section-1 .u-image-1 {
@@ -79,16 +82,14 @@
     margin-right: 0;
   }
 
-  .u-section-1 .u-btn-1 {
-    font-size: 0.875rem;
-    margin-top: 54px;
-    padding: 4px 23px 5px 22px;
+  .u-section-1 .u-shape-1 {
+    margin-top: -59px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 425px;
+    min-height: 477px;
   }
 
   .u-section-1 .u-image-1 {
@@ -100,15 +101,18 @@
     margin-top: 32px;
   }
 
-  .u-section-1 .u-btn-1 {
-    font-size: 0.625rem;
-    margin-top: 32px;
+  .u-section-1 .u-shape-1 {
+    margin-top: -87px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 540px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 268px;
+    min-height: 300px;
   }
 
   .u-section-1 .u-image-1 {
@@ -122,11 +126,12 @@
     margin-top: 13px;
   }
 
-  .u-section-1 .u-btn-1 {
-    font-size: 0.5rem;
-    margin-top: 21px;
-    margin-bottom: 49px;
-    padding: 5px 5px 6px;
+  .u-section-1 .u-shape-1 {
+    margin-top: -51px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
   }
 } .u-section-2 {
   min-height: 1008px;
